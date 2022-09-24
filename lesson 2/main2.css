@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather:ital@1&display=swap');
+.grid-container{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(150px, auto);
+    grid-gap:100px; 
+}
+.head1{
+    color: black; 
+    background-color: rgb(193 186 201);
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size:3vw; 
+    text-decoration: underline;
+}
+
+body{
+    background-color:rgb(193 186 201);
+}
+.grid-item-1 {
+    color: black;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color:rgb(193 186 201);
+    padding-right:45px;
+    padding-left:30px;
+
+}
+
+.white-space{
+    border-style: solid;
+    border-color: black; 
+    border-width:10px; 
+    width: 90%; 
+    margin: 0 auto; 
+    display:block; 
+}
+
+.grid-item-2 {
+    color: black;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color:rgb(193 186 201);
+    padding-right:45px;
+    padding-left:30px;
+}
+.contrast-photo{
+    border-style: solid;
+    border-color: black; 
+    border-width:10px;  
+    width: 90%; 
+    margin: 0 auto; 
+    display:block; 
+}
+
+.grid-item-3 {
+    color: black;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color:rgb(193 186 201);
+    padding-right:45px;
+    padding-left:30px; 
+  
+}
+.fitts-law-photo{
+    border-style: solid;
+    border-color: black; 
+    border-width:10px; 
+    width: 90%; 
+    margin: 0 auto; 
+    display:block;  
+}
+footer{
+    text-align: center;
+    font-family:'EB Garamond', serif;
+    background-color:rgb(193 186 201);
+}
+
+@media screen and (min-width: 600px) {
+    .grid-container{ 
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .grid-container{ 
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
