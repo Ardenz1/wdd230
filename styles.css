@@ -33,7 +33,9 @@ header{
     header{
        color:  rgb(61, 57, 57);
     }
-
+.home_page_list{
+    color:  rgb(110, 105, 105);
+}
 .home-h2{
     align-items: center; 
     max-width: 500px; 

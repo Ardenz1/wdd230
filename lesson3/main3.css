@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Readex+Pro:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  /*HOME PAGE BLEOW */
+  
+  body {
+    margin: 0;
+    background-color:white; 
+    text-align: center;
+  }
+  .body_div{
+    background-color: #E7DECD;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+  }
+   h2, h3, .example_title{
+    font-family: 'Arsenal', sans-serif;
+  }
+  h2{
+    text-decoration: underline;
+    text-decoration-style: single;
+    text-decoration-color: #698F3F;
+  }
+
+  p{
+    font-family: 'Readex Pro', sans-serif;
+  }
+  
+  hr{
+    border-width: 0.05vh;
+  }
+
+  .index_h1 {
+    font-family: 'Arsenal', sans-serif;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #698F3F;
+  }
+  .logo-photo {
+    border-style: solid;
+    border-color:#0A122A;  
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    display:flex;
+    overflow: hidden;
+    background-color: #0A122A;
+    justify-content: space-around;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #698F3F;
+    color: black;
+  }
+
+  .nav1{
+    text-align: center;
+  }
+  /* TARGET AUDIENCE PAGE BELOW */
+  .persona-photo1{
+    border-style: solid;
+    border-color:#0A122A;
+  }
+
+  .persona-photo2{
+    border-style: solid;
+    border-color:#0A122A; 
+
+  }
+
+  /* COLOR SCHEME PAGE BELOW */
+  .color_h2{
+    font-family: 'Arsenal', sans-serif;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #698F3F;
+  }
+  .color_body{
+    background-color:#E7DECD;
+    display:block; 
+  }
+  .color1{
+    color:white; 
+    background-color: #0A122A ;
+    padding:8%;
+    border-style: solid;
+    border-color: black; 
+    margin:20px; 
+
+  }
+  .color2{
+    background-color: #698F3F;
+    padding:8%;
+    border-style: solid;
+    border-color: black; 
+    margin:20px; 
+
+  }
+  .color3{
+    background-color: #E7DECD;
+    padding:8%;
+    border-style: solid;
+    border-color: black; 
+    margin:20px; 
+
+  }
+  .color4{
+    background-color: #FBFAF8;
+    padding:8%;
+    border-style: solid;
+    border-color: black; 
+    margin:20px; 
+
+  }
+  /* TYPOGRAPHY PAGE BELOW  */
+  .font_imported{
+    padding-top:15px;
+    font-size:13px; 
+  }
