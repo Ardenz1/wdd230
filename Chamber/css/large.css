@@ -1,0 +1,16 @@
+@media screen and (min-width: 64rem) {
+    .container{
+        display:grid; 
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .grid-item5-1{
+        grid-template-columns: 2/4;
+    }
+    #primaryNav{
+        flex-direction: row !important;
+    }
+    .grid-item5-3{
+        display:block 
+    }
+    
+}

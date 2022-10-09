@@ -1,0 +1,16 @@
+@media screen and (min-width: 35rem) {
+    .topnav button {display:none;}
+    .top nav{
+        display:flex; 
+    }
+    .container{
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #primaryNav{
+        display:flex; 
+    }
+    .join-box{
+        display:block
+    }
+}
