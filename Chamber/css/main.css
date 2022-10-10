@@ -122,13 +122,16 @@ grid-row: 3/7;
 .grid-item5{
     display:grid;
     grid-template-rows: 1fr 1fr; 
+    padding:0; 
+    
 }
 
 .grid-item5-1{
-    border-style: solid;      
+    border-style: solid;   
 }
 .grid-item5-2{
     border-style: solid;
+
     
 }
 .grid-item5-3{
@@ -138,7 +141,6 @@ grid-row: 3/7;
 
 .grid-item5{
     background-color:#FBFAF8;
-    padding:10%;
     margin: 10px; 
     border-style: solid; 
 }
