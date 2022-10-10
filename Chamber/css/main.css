@@ -1,11 +1,15 @@
- /**{
-    border: 1px solid black; 
-    margin: 0; 
-    padding: 0 in the body;
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Readex+Pro:wght@200&display=swap');
+h1 {
+    font-family: 'Arsenal', sans-serif;
 }
-*/
+
+p{
+    font-family: 'Readex Proe', sans-serif;
+}
+
 .topnav{
     background-color: #0A122A;
+    font-family: 'Arsenal', sans-serif;
     padding: 5px; 
     display:grid; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -16,6 +20,7 @@
     margin-top: 15px;
     
 }
+
 
     .topnav a {
     float:left;
@@ -46,6 +51,7 @@
 grid-column:3/4; 
 
 }
+
   .date{
     grid-column: 1/4; 
     grid-row:2/3; 
@@ -112,36 +118,22 @@ grid-row: 3/7;
     margin: 10px; 
     border-style: solid; 
 }
-.grid-item5-01{
-    border-style:solid; 
-    display:grid; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    grid-template-columns: 1fr; 
-}
 
+.grid-item5{
+    display:grid;
+    grid-template-rows: 1fr 1fr; 
+}
 
 .grid-item5-1{
-    width: 13vw;
-    height: 12vh;
-    padding:5%;
-    margin: 20px;
-    border-style: solid;  
+    border-style: solid;      
 }
 .grid-item5-2{
-    width: 13vw;
-    height: 12vh;
-    padding:5%;
-    margin: 20px; 
     border-style: solid;
-    /*border-style: solid;*/
+    
 }
 .grid-item5-3{
-    width: 13vw;
-    height: 12vh;
     display:none;
-    border-style: solid;
-    padding:5%;
-    margin: 20px;
+    border-style: solid; 
 }
 
 .grid-item5{
@@ -155,12 +147,21 @@ grid-row: 3/7;
     text-align: center;
     color:#698F3F; 
     font-size:15px; 
+    font-family: 'Arsenal', sans-serif;
 }
 .footer-div2{
+    background-color:#0A122A;
+    text-align: center;
+    color:#698F3F; 
+    font-size:15px; 
+    font-family: 'Readex Proe', sans-serif;
+}
+.footer-div3{
     color:white; 
     background-color:#0A122A;
     text-align: center;
     font-size: 10px; 
+    font-family: 'Readex Proe', sans-serif;
 }
 .page-logo-footer{
     padding-top: 20px;
