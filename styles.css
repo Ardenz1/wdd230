@@ -11,6 +11,10 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 header, nav, main {
     margin: 1.25rem auto; 
     max-width: 760px; 
@@ -35,6 +39,7 @@ header{
     }
 .home_page_list{
     color:  rgb(110, 105, 105);
+    text-decoration: none;
 }
 .home-h2{
     align-items: center; 
@@ -71,4 +76,13 @@ footer {
 }
 footer{
     color:  rgb(61, 57, 57);
+}
+
+@media screen and (min-width: 600px) {
+  
+}
+
+
+@media screen and (min-width: 900px) {
+  
 }
