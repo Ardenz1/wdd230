@@ -32,3 +32,10 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+//Meeting Information That Is Day specific
+  
+    if (date.getDay() == 1 || date.getDay() == 2) {
+		document.querySelector('#message-box').
+		style.display = 'block';
+	}
