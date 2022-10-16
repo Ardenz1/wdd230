@@ -132,7 +132,29 @@ grid-row: 3/7;
     display:flex; 
     text-align: center;
     flex-flow: column wrap;
-    flex-direction: columns; 
+}
+#spotlight-1{
+    display:flex; 
+    text-align: center;
+    flex-flow: column wrap;
+
+}
+#spotlight-2{
+    display:flex; 
+    text-align: center;
+    flex-flow: column wrap;
+    
+}
+#overline-sp1{
+    text-decoration: overline;
+}
+#overline-sp2{
+    text-decoration: overline;
+}
+#spotlight-3{
+    display:flex; 
+    text-align: center;
+    flex-flow: column wrap;
 }
 .grid-item4{
     background-color: #698F3F;
