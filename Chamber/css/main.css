@@ -245,6 +245,10 @@ grid-row: 3/7;
     color:white; 
     display:none;
 }
+.msg-box{
+    font-size: 'Readex Proe', sans-serif;
+    text-align: center;
+}
 #item1-info{
     display: flex;
 
