@@ -150,6 +150,7 @@ border-style: solid;
 .degree-image{
     display: flex; 
     flex-direction: row;
+    justify-content: space-around; 
 }
 #news-release{
     display:flex; 
