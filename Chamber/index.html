@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,7 @@
     <title>Waterville Chambers of Commerce</title>
 
     <meta name="desciption" content="sample content">
-  <meta
-  name="description"
-  content="This page is the home page for Waterville Chambers of Commerce">
+    <meta name="description" content="This page is the home page for Waterville Chambers of Commerce">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../Chamber/css/main.css">
@@ -26,126 +25,136 @@
                 <img class="page-logo" src="../Chamber/images/logo5PS.png" alt="Page Logo">
                 <h1 class="home-h1">Waterville <br> Chambers of <br>Commerce</h1>
             </div>
-        
+
             <button id="hamburgerBtn">&#9776;</button>
-        
+
             <aside class="date"></aside>
             <nav id="primaryNav">
                 <a href="#">Home</a>
                 <a href="#">Discover</a>
                 <a href="#">Join</a>
                 <a href="#">Contact</a>
-        
+
             </nav>
             <div class="socials">
                 <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
-                <a href="https://www.linkedin.com/" class="fa fa-linkedin" ></a> 
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
             </div>
-            <div class="msg-box"  id="message-box">
-            Come join us for the chamber meet and greet Wednesday at 7:00 p.m
-        </div>
+            <div class="msg-box" id="message-box">
+                Come join us for the chamber meet and greet Wednesday at 7:00 p.m
+            </div>
         </div>
     </header>
 
     <main class="container">
         <div class="grid-item1">
             <div class="item1-info" id="parent-container">
-               <h3 id="child-h3"> Welcome to Waterville</h3>
+                <h3 id="child-h3"> Welcome to Waterville</h3>
+                    <div> 
+                        <picture> 
+                            <source srcset="../Chamber/images/hero_image_900_LARGE.jpg" media="(min-width:900px)">
+                            <source srcset="../Chamber/images/hero_image_700_med.jpg" media="(min-width:700px)"> 
+                            <img src="../Chamber/images/hero_image_400_SMALL.jpg" alt="Picture of Waterville" class="picture-image">
+                        </picture>
+                    </div>
                 <button type="button">JOIN THE CHAMBER</button>
             </div>
         </div>
-        <div class="grid-item2"> 
+        <div class="grid-item2">
             <div id="item2-child">
-             <h2>Ribbon Cutting</h2>
-             <h3>The Diamond Shack</h3>
-             <p>Join us for the grand opening of the Diamond Shack <br> 
-                Thursday at 1 p.m. more info...</p>
+                <h2>Ribbon Cutting</h2>
+                <h3>The Diamond Shack</h3>
+                <p>Join us for the grand opening of the Diamond Shack <br>
+                    Thursday at 1 p.m. more info...</p>
             </div>
         </div>
-        <div class="grid-item3"> 
+        <div class="grid-item3">
             <div class="item3-info">
                 <div id="weather-box-child">
-                     <h2>Weather</h2>
-                     <div class="degree-image">
-                        <img src="" alt="cloud image">
-                        <h3>33°C </h3>
-                         </div>
-                     <p>Partly Cloudy</p>
-                    <p>Wind Chill: 2.5 km/h <br> 
-                     Wind Speed: N/A
-                     </p>
+                    <h2>Weather</h2>
+                    <div class="degree-image">
+                        <img src="../Chamber/images/cloud.photosop.png" alt="cloud image">
+                        <p class="degree"><span id="t">35</span>°</p>
+                 </div>
+                    <p>Partly Cloudy</p><hr>
+                    <p>Wind Speed: <span id="ws"> 5 </span> <br>
+                    <p>Wind Chill: <span id="wc"> n/a </span></p>
                 </div>
-            </div> 
+            </div>
         </div>
-        <div class="grid-item4"> 
+        <div class="grid-item4">
             <div id="news-release">
                 <h2>News Release</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
-                incididunt ut labore et dolore magna aliqua. Facilisis gravida neque convallis a.
+                    incididunt ut labore et dolore magna aliqua. Facilisis gravida neque convallis a.
                 </p>
             </div>
         </div>
-            <div class="join-box">
-                <div id="join-child">
-                    <button type="button" class="join_button">Join Us! </button>
-                    <p>Discover how to join the chamber of commerce <br>
+        <div class="join-box">
+            <div id="join-child">
+                <button type="button" class="join_button">Join Us! </button>
+                <p>Discover how to join the chamber of commerce <br>
                     and how it will benefit your organization
-                    </p>
-             </div>
+                </p>
+            </div>
         </div>
-        <div class="grid-item5"> 
-           
-                 <div class="grid-item5-1">
-                    <div id="spotlight-1">
+        <div class="grid-item5">
+
+            <div class="grid-item5-1">
+                <div id="spotlight-1">
                     <h3>Thankful Transport</h3>
-                    <img src="" alt="truck icon"> 
-                    <p>We get it there for you!</p>
+                    <img src="../Chamber/images/truck,photoshop.png" alt="truck icon" class="truck-image">
+                    <p>We get it there for you!</p><hr>
                     <p id="overline-sp1">Heelo@thankfultransport.com<br>
-                    +999-9999-9999 website</p>
-                 </div>
+                        +999-9999-9999 website</p>
                 </div>
-                <div class="grid-item5-2">
-                    <div id="spotlight-2">
-                        <h3>Code Primera</h3>
-                        <img src="" alt="code icon">
-                        <p>After School instructional Programing</p>
-                         <p id="overline-sp2"> contact@codeprimera.com <br>
+            </div>
+            <div class="grid-item5-2">
+                <div id="spotlight-2">
+                    <h3>Code Primera</h3>
+                    <img src="../Chamber/images/other_code_photoshop.png" alt="code icon" class="code-image">
+                    <p>After School instructional Programing</p>
+                    <hr>
+                    <p id="overline-sp2"> contact@codeprimera.com <br>
                         +999-9999-9999 | website </p>
-                    </div>
-                 </div>
-                
-                <div class="grid-item5-3">
-                    <div id="spotlight-3">
-                        <h3>Build a Treehouse</h3>
-                        <img src="" alt="tree house icon">
-                         <p>Over 10000 plans</p>
-                        
-                         <p>contact@codeprimera.com<br>
-                        +999-9999-9999 | website</p>
-                    </div>
                 </div>
             </div>
 
+            <div class="grid-item5-3">
+                <div id="spotlight-3">
+                    <h3>Build a Treehouse</h3>
+                    <img src="../Chamber/images/tree_house.photoshop.png" alt="tree house icon" class="tree-image">
+                    <p>Over 10000 plans</p><hr>
+                    <p>contact@codeprimera.com<br>
+                        +999-9999-9999 | website</p>
+                </div>
+            </div>
+        </div>
+
     </main>
-    <footer> 
+    <footer>
         <div class="footer-div1">
-            <img class="page-logo-footer" src="../Chamber/images/logo5PS.png" alt="Page Logo">
+            <img class="page-logo-footer" src="../Chamber/images/logo5PS.webp" alt="Page Logo">
             <h2>Waterville Chambers of Commerce</h2>
-            
+
             <div class="footer-div2">
                 <p>122 Farnsworth Rd, Waterville, OH 43566<br>
                     Watervillecity.com <br>
-                    (233)-2070-2300, <a href="https://www.google.com/maps/place/Waterville,+OH+43566/@41.4980046,-83.770505,13z/data=!3m1!4b1!4m5!3m4!1s0x883c7238ce3349eb:0x89b1f934a9faacd3!8m2!3d41.5008859!4d-83.7182701" style="color: white"  target="blank">map link</a></p>
-                    <hr>
-                 </div>
-        
-                    <div class="footer-div3">
+                    (233)-2070-2300, <a
+                        href="https://www.google.com/maps/place/Waterville,+OH+43566/@41.4980046,-83.770505,13z/data=!3m1!4b1!4m5!3m4!1s0x883c7238ce3349eb:0x89b1f934a9faacd3!8m2!3d41.5008859!4d-83.7182701"
+                        style="color: white" target="blank">map link</a></p>
+                <hr>
+            </div>
+
+            <div class="footer-div3">
                 <p>&copy;<span class="year"></span> Waterville Chamber<br>
                     WDD 230 Project, Arden Dubiel<br>
-                Last modification: <span class="updated"></span></p>
+                    Last modification: <span class="updated"></span></p>
             </div>
         </div>
     </footer>
-    <script src="../Chamber/js/js-chamber.js" ></script>
+    <script src="../Chamber/js/js-chamber.js"></script>
+    <script src="../Chamber/js/windchill.js"> </script> 
 </body>
+
 </html>

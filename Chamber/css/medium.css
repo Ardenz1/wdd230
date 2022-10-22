@@ -13,9 +13,9 @@
         justify-content: space-between;
         align-items: center;
     }
-    .join-box{
+    /* .join-box{
        display:flex;
-    }
+    } */
     .grid-item1{
         grid-column: 1/4;
        
@@ -61,6 +61,10 @@
     .join-box{
         grid-column: 1/4; 
         grid-row:4/5; 
+    }
+    .join-box{
+        display:flex; 
+        align-items: center;
     }
 
 }
