@@ -18,9 +18,9 @@
     } */
     .grid-item1{
         grid-column: 1/4;
-        background-image:url(../images/hero_image.jpg) ;
-        background-repeat: none;
-        background-size: cover;
+        /* background-image:url(../images/hero_image.jpg) ; */
+        /* background-repeat: none;
+        background-size: cover; */
        
     }
     .grid-item2{
