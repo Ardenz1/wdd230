@@ -1,8 +1,11 @@
 @media screen and (min-width: 64rem) {
-    .container{
+    .container {
         display:grid; 
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        margin:auto; 
+        margin-top:20px; 
+        margin-bottom: 20px;
     }
     #primaryNav{
         flex-direction: row !important;
@@ -50,4 +53,23 @@
     .grid-item5-3{
         display:block 
     }
+
+/* DISCOVER PAGE  */
+    #parent-container2{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .color img{
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+    }
+        
+        .color img:hover{
+        filter: grayscale(0%);
+        filter: gray;
+        -webkit-filter: grayscale(0%);
+        filter: none;
+        transition: 0.5s ease;
+        }
+
 }

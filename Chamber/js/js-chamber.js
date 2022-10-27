@@ -39,3 +39,9 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 		document.querySelector('#message-box').
 		style.display = 'block';
 	}
+
+//LAST DAY VISITED: 
+// const = Date.now(); 
+// let previous = 
+// let difference = current-visit; 
+// let diffdays = Math.floor(difference / 1000 / 60/ 60 /24); 
