@@ -45,3 +45,73 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 // let previous = 
 // let difference = current-visit; 
 // let diffdays = Math.floor(difference / 1000 / 60/ 60 /24); 
+
+localStorage.setItem('visitDate', 'Date.now'); 
+let visitDate = localStorage.getItem('visitDate');
+console.log('visitDate'); 
+
+let currentDate= Date.now(); 
+
+let previous = localStorage.getItem('1', '2')
+// if ! previous (there is or isn't something in local storage) 
+	// set local storage to todays date and "welcome its your first visit" 
+//else 
+	//get local storage vallue
+//the difference between the 2 dates, today and what was in storage. (this is where you do the equation) 
+//set the new date in local storage
+
+if(localStorage.getItem('lastvisit')){
+    localStorage.setItem('lastvisit', Date.now()); 
+    document.getElementById('since-visit').textContent = 'This is your first visit!!'
+} 
+else{
+    setStyles();
+}
+
+function setStyles(){
+    let prevDate = localStorage.getItem('lastvisit');
+    let currDate = Date.now(); 
+
+    let difference = currDate - prevDate;
+        console.log(difference); 
+        let daysDifference = Math.floor(difference/ 1000/ 60/ 60/24);
+    document.getElementById('since-visit').textContent = daysDifference; 
+
+    localStorage.setItem('lastvisit', Date.now()); 
+}
+
+
+/// Lazy Loading///
+const image = document.querySelectorAll('img');
+
+const pimages = document.querySelectorAll('[data-src]');
+const options = { 
+    threshold: 1, 
+    rootMargin: '0px 0px 100px 0px'
+}
+
+function preloadImage(img){
+    const source = img.getAttribute('data-src');
+    if(!source){
+        return; 
+    }
+
+    img.src = source; 
+}
+const io = new IntersectionObserver(
+    (entries, io) => {
+        entries.forEach(entry => {
+            if(!entry.isIntersecting){
+                return;
+            } else{
+                preloadImage(entry.target);
+                io.unobserve(entry.target);
+            }
+        });
+    },
+        options );
+
+pimages.forEach(image => {
+    io.observe(image); 
+    
+    });
