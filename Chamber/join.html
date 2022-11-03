@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../Chamber/css/main.css">
     <link rel="stylesheet" href="../Chamber/css/medium.css">
     <link rel="stylesheet" href="../Chamber/css/large.css">
+    <link rel="stylesheet" href="../Chamber/css/formstyles.css">
 </head>
 
 <body>
@@ -43,45 +44,56 @@
             </div>
         </div>
     </header>
-    <h1 class="discover-h1"> Discover Waterville</h1>
-    <div id="parent-container2" class="color">
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_1birck_street_dp1_ps.jpg"  class="color"  alt="Old town Waterville street">
-        </picture>
+    <body> 
+    <h1 class="discover-h1"> Join Us</h1>
+    <div class="join_body"> 
 
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_1brown_field_dp5.jpg" alt="Farm Field">
-        </picture>
+        <form method="get" action="thankyou.html" class="join_form"> 
+            <fieldset>
+                <legend> Personal Info.</legend>
+            <label for="fname">First Name: </label>
+            <input id="fname" type="text" name="firstname"> <br>
 
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_1hill_dp7.jpg" alt="tall man hill">
-        </picture>
+            <label for="lname">Last Name: </label>
+            <input id="lname" type="text" name="lastname"> <br>
+           
 
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_forest_path_dp2_ps.jpg" alt="Old town Waterville street">
-        </picture>
+            <label for="title">Business Position Title*:</label> 
+            <input required id="title" name="title"> <br>
+        </fieldset> 
 
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_flower_field_dp8.jpg" alt="Flower Field">
-        </picture>
+        <fieldset>
+            <legend>Contact Info.</legend>
+            <label for="email">Email:</label> 
+            <input required id="email" name="emailad"> <br>
 
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300"  data-src="../Chamber/images/discovery-page-images/rsz_1townhall_dp4.jpg" alt="Townhall">
-        </picture>
+            <label for="email">Phone Number:</label> 
+            <input required id="email" name="emailad"> <br>
+        </fieldset>
 
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_1street_dp9_ps.jpg" alt="Waterville street">
-        </picture>
+        <fieldset>
+            <legend>Membership Info.</legend>
+            <label for="fruit">What is you membership level<abbr title="This field is mandatory" aria-label="required">*</abbr></label>
+            <input type="text" id="fruit" name="fruit" list="l1" required pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range" oninvalid="this.value('')"><br>
+        
+                <datalist id="l1">
+                    <option>Gold</option>
+                    <option>Silver</option>
+                    <option>Broze</option>
+                    <option>NP</option>
+                </datalist> 
 
-        <picture> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_green_field_dp6.jpg" alt="Field">
-        </picture>
+            <label for="email">Business Descirption:</label> 
+            <input required id="email" name="emailad"> <br>
 
-        <picture class="image9"> 
-            <img src="https://ik.imagekit.io/demo/img/image4.jpeg?tr=w-1,h-1:w-400,h-300" data-src="../Chamber/images/discovery-page-images/rsz_2well_dp3_ps.jpg" alt="Well of secrets" >
-        </picture>
+            <input type="submit" value="Submit">
+        </fieldset>
+                
+        
+        </form>
     </div>
-
+</body>
+    
     <footer>
         <div class="footer-div1">
             <div> Days Since Last Visit: <span id="since-visit">  </span></div>

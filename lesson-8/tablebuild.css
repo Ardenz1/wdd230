@@ -1,0 +1,39 @@
+tr:nth-child(even){ 
+    background-color: rgb(181, 199, 202);
+}
+tr:nth-child(odd){
+    background-color: rgb(208, 239, 230);
+}
+thead th{ 
+    background-color:rgb(74, 163, 166); 
+    font-size:20px; 
+}
+td, th{ 
+    padding: 20px;
+    border: solid 1px;  
+    font-size: 1em; 
+}
+table { 
+    border: solid 1px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Ubuntu", sans-serif; 
+    box-shadow: 5px 8px 20px;
+    text-align: center;
+    max-width: 90%;
+}
+tfoot td{
+    background-color: rgb(54, 136, 139); 
+    font-size: 15px; 
+    text-align: center;
+}
+.BF-n{
+    font-style: italic; 
+    text-align: center;
+    background-color: rgb(59, 106, 131);
+    color:white; 
+}
+.title1{
+background-color: rgb(59, 106, 131); 
+color: white;
+}

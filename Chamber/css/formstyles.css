@@ -1,0 +1,26 @@
+tr:nth-child(odd){ 
+    background-color: brown;
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+thead th{ 
+    background-color:rgb(140, 140, 188); 
+}
+td, th{ 
+    padding: 20px;
+    border: solid 1px;  
+    font-size: 2em; 
+}
+table { 
+    border: solid 1px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+tfoot td{
+    background-color: rgb(140, 140, 188);
+}
+tbody, tr:nth-child(3){ 
+    font-style: italic; 
+
+}

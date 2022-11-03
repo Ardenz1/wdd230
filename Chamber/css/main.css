@@ -349,3 +349,11 @@ picture img{
     text-decoration-style: double;
     text-decoration-color: #698F3F; 
 }
+
+/* JOIN PAGE */
+.join_body {
+    background-color:#E7DECD; 
+    margin: 50px; 
+}
+/* .join_form{
+} */
