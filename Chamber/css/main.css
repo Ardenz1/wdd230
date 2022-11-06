@@ -380,3 +380,12 @@ textarea {
     background-color: #E7DECD;
     text-align:center; 
 }
+.jc-button{
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #0A122A;
+    color: white;
+}

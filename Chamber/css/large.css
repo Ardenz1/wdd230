@@ -74,6 +74,7 @@
 .join-container{
     display:grid; 
     grid-template-columns: 1fr 1fr;
+    padding-left:50px; 
 }
 .mem-div{
     text-align: left;
