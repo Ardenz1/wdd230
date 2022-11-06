@@ -329,19 +329,6 @@ picture img{
     height: 100%; 
 }
 
-/* .color img{
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-    
-    .color img:hover{
-    filter: grayscale(0%);
-    filter: gray;
-    -webkit-filter: grayscale(0%);
-    filter: none;
-    transition: 0.5s ease;
-    } */
-
 .discover-h1{ 
     text-align:center; 
     font-family: 'Arsenal', sans-serif; 
@@ -351,9 +338,45 @@ picture img{
 }
 
 /* JOIN PAGE */
-.join_body {
-    background-color:#E7DECD; 
-    margin: 50px; 
+
+form{ 
+    margin:40px; 
+   
 }
-/* .join_form{
-} */
+
+form input:required { 
+    border-left: red solid 6px; 
+}
+
+form input:required:valid { 
+    border-left: green solid 6px; 
+}
+
+input{ 
+    margin-bottom:10px
+}
+
+label, input { 
+    display: block; 
+    font-size: 1em; 
+    /* margin: 30px;  */
+
+}
+
+textarea {
+    height: 150px;
+    width: 300px; 
+}
+#radio label, #radio input { 
+    display: inline; 
+}
+.join-container{
+    background-color:#E7DECD ;
+}
+.mem-div{
+    text-align: center;
+}
+.ty-container{
+    background-color: #E7DECD;
+    text-align:center; 
+}

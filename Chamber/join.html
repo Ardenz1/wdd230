@@ -7,14 +7,13 @@
     <meta name="desciption" content="sample content">
     <meta
     name="description"
-    content="This page is the discover page for the Waterville Chambers of Commerce" />
-    <title>Discover Page</title>
+    content="This page is the Join page for the Waterville Chambers of Commerce" />
+    <title>Join Page</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../Chamber/css/main.css">
     <link rel="stylesheet" href="../Chamber/css/medium.css">
     <link rel="stylesheet" href="../Chamber/css/large.css">
-    <link rel="stylesheet" href="../Chamber/css/formstyles.css">
 </head>
 
 <body>
@@ -44,78 +43,106 @@
             </div>
         </div>
     </header>
-    <body> 
     <h1 class="discover-h1"> Join Us</h1>
-    <div class="join_body"> 
-
-        <form method="get" action="thankyou.html" class="join_form"> 
-            <fieldset>
-                <legend> Personal Info.</legend>
-            <label for="fname">First Name: </label>
-            <input id="fname" type="text" name="firstname"> <br>
-
-            <label for="lname">Last Name: </label>
-            <input id="lname" type="text" name="lastname"> <br>
-           
-
-            <label for="title">Business Position Title*:</label> 
-            <input required id="title" name="title"> <br>
-        </fieldset> 
-
-        <fieldset>
-            <legend>Contact Info.</legend>
-            <label for="email">Email:</label> 
-            <input required id="email" name="emailad"> <br>
-
-            <label for="email">Phone Number:</label> 
-            <input required id="email" name="emailad"> <br>
-        </fieldset>
-
-        <fieldset>
-            <legend>Membership Info.</legend>
-            <label for="fruit">What is you membership level<abbr title="This field is mandatory" aria-label="required">*</abbr></label>
-            <input type="text" id="fruit" name="fruit" list="l1" required pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range" oninvalid="this.value('')"><br>
-        
-                <datalist id="l1">
-                    <option>Gold</option>
-                    <option>Silver</option>
-                    <option>Broze</option>
-                    <option>NP</option>
-                </datalist> 
-
-            <label for="email">Business Descirption:</label> 
-            <input required id="email" name="emailad"> <br>
-
-            <input type="submit" value="Submit">
-        </fieldset>
-                
-        
-        </form>
-    </div>
-</body>
+    <div class="join-container"> 
+        <form method="get" action="thankyou.html"> 
+            <label for="fname">First Name*: </label>
+            <input id="fname" type="text" name="firstname" required> 
     
-    <footer>
-        <div class="footer-div1">
-            <div> Days Since Last Visit: <span id="since-visit">  </span></div>
-            <img class="page-logo-footer" src="../Chamber/images/logo5PS.webp" alt="Page Logo">
-            <h2>Waterville Chambers of Commerce</h2>
-
-            <div class="footer-div2">
-                <p>122 Farnsworth Rd, Waterville, OH 43566<br>
-                    Watervillecity.com <br>
-                    (233)-2070-2300, <a
-                        href="https://www.google.com/maps/place/Waterville,+OH+43566/@41.4980046,-83.770505,13z/data=!3m1!4b1!4m5!3m4!1s0x883c7238ce3349eb:0x89b1f934a9faacd3!8m2!3d41.5008859!4d-83.7182701"
-                        style="color: white" target="blank">map link</a></p>
-                <hr>
+            <label for="lname">Last Name*: </label>
+            <input id="lname" type="text" name="lastname" required> 
+    
+            <label for="title">Business Name/Title*:</label> 
+            <input required id="title" type="text" name="title" placeholder="only letters spaces and dashes and at least 7 chaaracters" pattern="[- A-Za a-z]+" minlength="7">  
+    
+            <label for="email">Email*: </label>
+            <input id="email" type="email" name="email"  placeholder="Enter your email" required> 
+    
+            <label for="phone">Telephone*: </label>
+            <input id="phone" type="tel" name="cell" required> 
+    
+            <label id="member">Enter Your Membership Level </label>
+            <div id="radio"> 
+                <div>
+                <input type="radio" id="one" name="mlevel" value="level 1"> 
+                <label for="one"> Non Profit</label>
             </div>
-
-            <div class="footer-div3">
-                <p>&copy;<span class="year"></span> Waterville Chamber<br>
-                    WDD 230 Project, Arden Dubiel<br>
-                    Last modification: <span class="updated"></span></p>
+    
+                <div>
+                <input type="radio" id="two" name="mlevel" value="level 2"> 
+                <label for="two"> Bronze </label>
             </div>
-        </div>
+    
+                <div> 
+                <input type="radio" id="three" name="mlevel" value="level 3"> 
+                <label for="three"> Silver</label>
+            </div>
+    
+                <div> 
+                <input type="radio" id="four" name="mlevel" value="level 4"> 
+                <label for="four"> Gold </label>
+            </div>
+            </div>
+    
+            <label for="message"> Business Description</label>
+            <textarea id="message" placeholder="Your business description here"></textarea>
+    
+            <input id="date" type="hidden" name="todaydate">
+            <input type="submit" value="join the chamber" > 
+        </form>
+    <div class="mem-div">
+                <h1> Membership Levels Benefits</h1>
+                <h3>NP Membership</h3>
+                <ul>
+                    <li>For non profit organizations and there is no fee</li>
+                </ul>  
+                <h3> Bronze Membership</h3>
+                    <ul>
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50/month </li>
+                    </ul>   
+                <h3>Silver Membership</h3>
+                <ul>
+                    <li>25% discount on events</li>
+                    <li>15% discount on advertising</li>
+                    <li>Free participation in the trade fair </li>
+                    <li>Fee of $100/month </li>
+                </ul>                           
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair </li>
+                    <li>5 free featured ads per year </li>
+                    <li>1 free training per quarter </li>
+                    <li> Fee of $250/month </li>
+                </ul> 
+
+             </div>
+     </div>
+        <footer>
+            <div class="footer-div1">
+                <img class="page-logo-footer" src="../Chamber/images/logo5PS.webp" alt="Page Logo">
+                <h2>Waterville Chambers of Commerce</h2>
+    
+                <div class="footer-div2">
+                    <p>122 Farnsworth Rd, Waterville, OH 43566<br>
+                        Watervillecity.com <br>
+                        (233)-2070-2300, <a
+                            href="https://www.google.com/maps/place/Waterville,+OH+43566/@41.4980046,-83.770505,13z/data=!3m1!4b1!4m5!3m4!1s0x883c7238ce3349eb:0x89b1f934a9faacd3!8m2!3d41.5008859!4d-83.7182701"
+                            style="color: white" target="blank">map link</a></p>
+                    <hr>
+                </div>
+    
+                <div class="footer-div3">
+                    <p>&copy;<span class="year"></span> Waterville Chamber<br>
+                        WDD 230 Project, Arden Dubiel<br>
+                        Last modification: <span class="updated"></span></p>
+                </div>
+            </div>
     </footer>
+
     <script src="../Chamber/js/js-chamber.js"></script>
 </body>
 </html>

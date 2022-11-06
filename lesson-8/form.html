@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+
+    <link rel="stylesheet" href="../lesson-8/formstyles.css">
+</head>
+<body>
+    <div class="join-container"> 
+    <form method="get" action="thankyou.html"> 
+        <label for="fname">First Name </label>
+        <input id="fname" type=""text name="firstname"> 
+
+        <label for="lname">Last Name </label>
+        <input id="lname" type="text" name="lastname" required> 
+
+        <label for="title">Business Position Title* (only letters spaces and dashes and at least 7 chaaracters):</label> 
+        <input required id="title" type="text" name="title" pattern="[- A-Za a-z]+" minlength="7">  
+
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email"> 
+
+        <label for="phone">Telephone: </label>
+        <input id="phone" type="tel" name="cell" required> 
+
+        <label id="member">Enter Your Membership Level </label>
+        <div id="radio"> 
+            <div>
+            <input type="radio" id="one" name="mlevel" value="level 1"> 
+            <label for="one"> Non Profit</label>
+        </div>
+
+            <div>
+            <input type="radio" id="two" name="mlevel" value="level 2"> 
+            <label for="two"> Bronze </label>
+        </div>
+
+            <div> 
+            <input type="radio" id="three" name="mlevel" value="level 3"> 
+            <label for="three"> Silver</label>
+        </div>
+
+            <div> 
+            <input type="radio" id="four" name="mlevel" value="level 4"> 
+            <label for="four"> Gold </label>
+        </div>
+        </div>
+
+        <label for="message"> business descirption</label>
+        <textarea id="message" placeholder="your biz description"></textarea>
+
+        <input id="date" type="hidden" name="todaydate">
+        <input type="submit" value="join the chamber" > 
+    </form>
+
+    <div join-body>
+        <h1> Membership info</h1>
+    </div>
+</div>
+</body>
+</html>

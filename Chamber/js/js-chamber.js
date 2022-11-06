@@ -62,7 +62,7 @@ let previous = localStorage.getItem('1', '2')
 
 if(localStorage.getItem('lastvisit')){
     localStorage.setItem('lastvisit', Date.now()); 
-    document.getElementById('since-visit').textContent = 'This is your first visit!!'
+    document.getElementById('since-visit').textContent = 'This is your 1st visit!!';
 } 
 else{
     setStyles();
@@ -115,3 +115,14 @@ pimages.forEach(image => {
     io.observe(image); 
     
     });
+// JOIN PAGE GET DATE
+
+document.querySelector('date').value = date;
+const date2 = new Date();
+const dateTime=
+date.getMonth() +'/'+
+date.getDate()+'/'+
+date.getFullYearear() +''+
+date.getHours()+':'+
+date.getMinutes() +':'+
+date.getSeconds()

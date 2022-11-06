@@ -71,5 +71,11 @@
         filter: none;
         transition: 0.5s ease;
         }
-
+.join-container{
+    display:grid; 
+    grid-template-columns: 1fr 1fr;
+}
+.mem-div{
+    text-align: left;
+}
 }
