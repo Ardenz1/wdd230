@@ -1,0 +1,87 @@
+{
+    "businesses": [
+      {
+        "name": "A & L Barber Shop",
+        "address": "47 Main Street",
+        "phone": "207-873-1010",
+        "website": "davesbarbershop.com",
+        "image": 9
+      },
+      {
+        "name": "A.E. Hodson Engineers",
+        "address": "10 Common Street",
+        "phone": "207-873-5164",
+        "website": "aehodsdon.com",
+        "image": 9
+      },
+      {
+        "name": "All Kids in Action Occupational Pediatric Therapy",
+        "address": "20 Silver Stree",
+        "phone": "207-680-6020",
+        "website": "https://yellow.place/en/all-kids-in-action-chelsea-usa",
+        "image": 9
+      },
+      {
+        "name": "Berry's Stationers",
+        "address": "153A Main Street",
+        "phone": "207-873-5111",
+        "website": "berrysstationers.com",
+        "image": 9
+      },
+      {
+        "name": "Blue Wave Dancing",
+        "address": "33 East Concourse, 2nd Floor",
+        "phone": "207-514-3820",
+        "website": "bluewavedancing.com/",
+        "image": 9
+      },
+      {
+        "name": "1FirstCashAdvance",
+        "address": "1942 Broadway St., STE 314C",
+        "phone": "888-847-2909",
+        "website": "1firstcashadvance.org/",
+        "image": 9
+      },
+      {
+        "name": "Camden National Bank",
+        "address": "33 Main Street",
+        "phone": "207-873-9124",
+        "website": "camdennational.bank/",
+        "image": 9
+      },
+      {"name": "Care & Comfort",
+      "address": "180 Main Street Suite 4",
+      "phone": "207-872-5300",
+      "website": "careandcomfort.com/Default.asp",
+      "image": 9
+      },
+      {
+        "name": "Central Maine Growth Council",
+        "address": "93 Main Street, 3rd Floor",
+        "phone": "207-680-7300",
+        "website": "centralmaine.org/",
+        "image": 9
+      },
+      {
+        "name": "Christopher Hastings Confections",
+        "address": "18 Common Street, Suite 205",
+        "phone": "(207) 209-0551",
+        "website": "chconfections.com/",
+        "image": 9
+      },
+      {
+        "name": "Cloud Wave Technologies",
+        "address": "44 Main Street, Suite 207",
+        "phone": "(207) 485-7263",
+        "website": "cloudwaveit.com/",
+        "image": 9
+      },
+      {
+        "name": "Common Street Arts",
+        "address": "93 Main Street",
+        "phone": "207-872-2787 ",
+        "website": "watervillecreates.org/ticonic/home/",
+        "image": 9
+      }
+    ]
+  }
