@@ -126,3 +126,35 @@ date.getFullYearear() +''+
 date.getHours()+':'+
 date.getMinutes() +':'+
 date.getSeconds()
+
+///Directory PAGE
+const requestURL = 'https://ardenz1.github.io/wdd230/Chamber/js/data.json';
+
+async function getBusinesses(requestURL){ 
+    const response = await fetch(requestURL);
+    console.log(response);
+    if(response.ok){
+        const jsObject = await response.json();
+        console.log(jsObject); 
+        const businesses = jsObject['businesses'];
+        console.log(businesses[0].name); 
+        businesses.forEach(disaplayBusinesses);
+
+    }
+
+};
+
+getBusinesses(requestURL); 
+
+function disaplayBusinesses(item){
+    let card = document.createElement('section');
+    let p = document.createElement('p');
+    
+
+    p.textContent = item.phone;  
+  
+
+    card.appendChild(p);
+    document.querySelector('.cards').appendChild(card); 
+}
+
