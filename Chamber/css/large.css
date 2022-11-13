@@ -79,5 +79,11 @@
 .mem-div{
     text-align: left;
 }
+.list_container2{
+    display:none; 
+}
+.card_container1{
+    display:flex; 
+}
 
 }

@@ -87,8 +87,15 @@
         filter: none;
         transition: 0.5s ease;
         }
-.join-form{
+.card_container1{
+    display:none; 
+}
+.list_container2{
+    display:block; 
+}
+tr {
     
-
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
 }
 }

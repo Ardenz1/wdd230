@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+ 
 }
 h1, h2, h3{
     font-family: 'Arsenal', sans-serif;
@@ -388,4 +389,78 @@ textarea {
     cursor: pointer;
     background-color: #0A122A;
     color: white;
+}
+/* Directory Page */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.cards section {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 2px 5px 15px;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    text-align: left;
+}
+tr:nth-child(even){ 
+    background-color: #9ac270;
+}
+tr:nth-child(odd){
+    background-color: #E7DECD;
+}
+table { 
+    border: solid 1px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Ubuntu", sans-serif; 
+    box-shadow: 5px 8px 20px;
+    text-align: center;
+    max-width: 90%;
+}
+.dir_h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #698F3F; 
+}
+.button-container{
+    display:flex; 
+    justify-content: space-around;
+    
+}
+.card_button{
+    display:block; 
+    width: 15%;
+    border: 2px solid black;
+    background-color: #E7DECD;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+}
+.list_button{
+    display:block; 
+    width: 15%;
+    border: 2px solid black;
+    background-color: #E7DECD;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+}
+.list_container2{
+    display:none; 
 }
