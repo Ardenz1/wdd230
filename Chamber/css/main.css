@@ -437,6 +437,7 @@ table {
 .button-container{
     display:flex; 
     justify-content: space-around;
+    padding:10px; 
     
 }
 .card_button{

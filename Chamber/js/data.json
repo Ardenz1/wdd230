@@ -3,84 +3,84 @@
       {
         "name": "A & L Barber Shop",
         "address": "47 Main Street",
-        "phone": "207-873-1010",
-        "website": "davesbarbershop.com",
+        "phone": "(207) 873-1010",
+        "website": "https://www.facebook.com/profile.php?id=100054503347972",
         "image": "barber.jpg"
       },
       {
         "name": "A.E. Hodson Engineers",
         "address": "10 Common Street",
-        "phone": "207-873-5164",
-        "website": "aehodsdon.com",
+        "phone": "(207) 873-5164",
+        "website": "https://www.aehodsdon.com/",
         "image": "engineer.jpg"
       },
       {
         "name": "Occupational Pediatric Therapy",
         "address": "20 Silver Street",
-        "phone": "207-680-6020",
-        "website": "yellow.place/en/all-kids-in-action-chelsea-usa",
+        "phone": "(207) 680-6020",
+        "website": "https://yellow.place/en/all-kids-in-action-chelsea-usa",
         "image": "pediatrics.jpg"
       },
       {
         "name": "Berry's Stationers",
         "address": "153A Main Street",
-        "phone": "207-873-5111",
-        "website": "berrysstationers.com",
+        "phone": "(207) 873-5111",
+        "website": "https://www.facebook.com/BerrysStationersOakland/",
         "image": "stationeers.jpg"
       },
       {
         "name": "Blue Wave Dancing",
         "address": "33 East Concourse, 2nd Floor",
-        "phone": "207-514-3820",
-        "website": "bluewavedancing.com/",
+        "phone": "(207) 514-3820",
+        "website": "http://bluewavedancing.com/",
         "image": "dance.gif"
       },
       {
         "name": "1FirstCashAdvance",
         "address": "1942 Broadway St., STE 314C",
-        "phone": "888-847-2909",
-        "website": "1firstcashadvance.org/",
+        "phone": "(888) 847-2909",
+        "website": "https://1firstcashadvance.org/",
         "image": "cash_advance.png"
       },
       {
         "name": "Camden National Bank",
         "address": "33 Main Street",
-        "phone": "207-873-9124",
-        "website": "camdennational.bank/",
+        "phone": "(207) 873-9124",
+        "website": "https://www.camdennational.bank/",
         "image": "Bank.jpg"
       },
       {"name": "Care & Comfort",
       "address": "180 Main Street Suite 4",
-      "phone": "207-872-5300",
-      "website": "careandcomfort.com/Default.asp",
+      "phone": "(207) 872-5300",
+      "website": "https://www.careandcomfort.com/Default.asp",
       "image": "care_comfort.jpg"
       },
       {
         "name": "Central Maine Growth Council",
         "address": "93 Main Street, 3rd Floor",
-        "phone": "207-680-7300",
-        "website": "centralmaine.org/",
+        "phone": "(207) 680-7300",
+        "website": "http://www.centralmaine.org/",
         "image": "maine.jpg"
       },
       {
         "name": "Christopher Hastings Confections",
         "address": "18 Common Street, Suite 205",
         "phone": "(207) 209-0551",
-        "website": "chconfections.com/",
+        "website": "http://www.chconfections.com/",
         "image": "confections.jpg"
       },
       {
         "name": "Cloud Wave Technologies",
         "address": "44 Main Street, Suite 207",
         "phone": "(207) 485-7263",
-        "website": "cloudwaveit.com/",
+        "website": "http://www.cloudwaveit.com/",
         "image": "cloud.png"
       },
       {
         "name": "Common Street Arts",
         "address": "93 Main Street",
-        "phone": "207-872-2787 ",
-        "website": "watervillecreates.org/ticonic/home/",
+        "phone": "(207) 872-2787 ",
+        "website": "https://www.watervillecreates.org/ticonic/home/",
         "image": "Common-street-art.jpg"
       }
     ]
