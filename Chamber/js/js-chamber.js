@@ -1,50 +1,44 @@
-// function toggleMenu() {
-//    document.getElementById("primaryNav").classList.toggle("open");
+function toggleMenu() {
+   document.getElementById("primaryNav").classList.toggle("open");
 
-// }
+}
 
-// const x = document.getElementById('hamburgerBtn')
-// x.onclick = toggleMenu; 
+const x = document.getElementById('hamburgerBtn')
+x.onclick = toggleMenu; 
 
-// //current Date 
-// let date = new Date(); 
-// let year = date.getFullYear(); 
+//current Date 
+let date = new Date(); 
+let year = date.getFullYear(); 
 
-// document.querySelector('.year').innerHTML = year;  
+document.querySelector('.year').innerHTML = year;  
 
-// //last upadted 
+//last upadted 
 
-// let currentdate = document.lastModified; 
-// document.querySelector('.updated').innerHTML = currentdate;
+let currentdate = document.lastModified; 
+document.querySelector('.updated').innerHTML = currentdate;
 
-// //Current Date
-// const datefield = document.querySelector(".date");
-// const datefieldUK = document.querySelector("aside"); 
+//Current Date
+const datefield = document.querySelector(".date");
+const datefieldUK = document.querySelector("aside"); 
 
 
-// const now = new Date();
-// const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-// 	now
-// );
-// const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-// 	dateStyle: "full"
-// }).format(now);
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now
+);
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(now);
 
-// datefield.innerHTML = `<em>${fulldate}</em>`;
-// datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+datefield.innerHTML = `<em>${fulldate}</em>`;
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-// //Meeting Information That Is Day specific
+//Meeting Information That Is Day specific
   
-//     if (date.getDay() == 1 || date.getDay() == 2) {
-// 		document.querySelector('#message-box').
-// 		style.display = 'block';
-// 	}
-
-//LAST DAY VISITED: 
-// const = Date.now(); 
-// let previous = 
-// let difference = current-visit; 
-// let diffdays = Math.floor(difference / 1000 / 60/ 60 /24); 
+    if (date.getDay() == 1 || date.getDay() == 2) {
+		document.querySelector('#message-box').
+		style.display = 'block';
+	}
 
 localStorage.setItem('visitDate', 'Date.now'); 
 let visitDate = localStorage.getItem('visitDate');
@@ -74,55 +68,50 @@ function setStyles(){
     localStorage.setItem('lastvisit', Date.now()); 
 }
 
-// /// Lazy Loading///
-// const image = document.querySelectorAll('img');
+/// Lazy Loading///
+const image = document.querySelectorAll('img');
 
-// const pimages = document.querySelectorAll('[data-src]');
-// const options = { 
-//     threshold: 1, 
-//     rootMargin: '0px 0px 100px 0px'
-// }
+const pimages = document.querySelectorAll('[data-src]');
+const options = { 
+    threshold: 1, 
+    rootMargin: '0px 0px 100px 0px'
+}
 
-// function preloadImage(img){
-//     const source = img.getAttribute('data-src');
-//     if(!source){
-//         return; 
-//     }
+function preloadImage(img){
+    const source = img.getAttribute('data-src');
+    if(!source){
+        return; 
+    }
 
-//     img.src = source; 
-// }
-// const io = new IntersectionObserver(
-//     (entries, io) => {
-//         entries.forEach(entry => {
-//             if(!entry.isIntersecting){
-//                 return;
-//             } else{
-//                 preloadImage(entry.target);
-//                 io.unobserve(entry.target);
-//             }
-//         });
-//     },
-//         options );
+    img.src = source; 
+}
+const io = new IntersectionObserver(
+    (entries, io) => {
+        entries.forEach(entry => {
+            if(!entry.isIntersecting){
+                return;
+            } else{
+                preloadImage(entry.target);
+                io.unobserve(entry.target);
+            }
+        });
+    },
+        options );
 
-// pimages.forEach(image => {
-//     io.observe(image); 
+pimages.forEach(image => {
+    io.observe(image); 
     
-//     });
+    });
+
 // JOIN PAGE GET DATE
 
+document.querySelector('#date').value = date;
+const date2 = new Date();
+const dateTime=
+date.getMonth() +'/'+
+date.getDate()+'/'+
+date.getFullYearear() +''+
+date.getHours()+':'+
+date.getMinutes() +':'+
+date.getSeconds()
 
-// document.querySelector('#date').value = date;
-// const date2 = new Date();
-// const dateTime=
-// date.getMonth() +'/'+
-// date.getDate()+'/'+
-// date.getFullYearear() +''+
-// date.getHours()+':'+
-// date.getMinutes() +':'+
-// date.getSeconds()
-
-// //card.style.display = 'none'; 
-// //card.forEacch((item) => {
-//     //item.remove()
-// //}
-// //do each diplay nonoe in each function 
