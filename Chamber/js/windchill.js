@@ -1,4 +1,3 @@
-console.log('hello')
 const temp = document.querySelector('#t').textContent;
 const windspeed = document.querySelector('#ws').textContent;
 
