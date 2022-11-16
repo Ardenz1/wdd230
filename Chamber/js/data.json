@@ -1,11 +1,11 @@
 {
     "businesses": [
       {
-        "name": "A & L Barber Shop",
+        "name": "Pizza Hut",
         "address": "47 Main Street",
         "phone": "(207) 873-1010",
-        "website": "https://www.facebook.com/profile.php?id=100054503347972",
-        "image": "barber.jpg"
+        "website": "https://www.pizzahut.com/",
+        "image": "pizza.png"
       },
       {
         "name": "A.E. Hodson Engineers",
@@ -22,11 +22,11 @@
         "image": "pediatrics.jpg"
       },
       {
-        "name": "Berry's Stationers",
+        "name": "Chowders 'N Moor",
         "address": "153A Main Street",
         "phone": "(207) 873-5111",
-        "website": "https://www.facebook.com/BerrysStationersOakland/",
-        "image": "stationeers.jpg"
+        "website": "https://chowdersnmoor.com/",
+        "image": "chowders.jpg"
       },
       {
         "name": "Blue Wave Dancing",

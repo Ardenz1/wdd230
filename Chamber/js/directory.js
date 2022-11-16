@@ -21,16 +21,20 @@ function disaplayBusinesses(item){
     let card = document.createElement('section');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p'); 
-    let p3 = document.createElement('p'); 
+    let h2= document.createElement('h2');
+    let p3 = document.createElement('a'); 
     let image = document.createElement('img');
     
-
+    h2.textContent = item.name; 
     p1.textContent = item.address;  
     p2.textContent = item.phone; 
     p3.textContent = item.website; 
+    p3.href = item.website;
+    p3.target = '_blank';
     image.setAttribute('src', 'images/directory/' + item.image);
   
     card.appendChild(image)
+    card.appendChild(h2)
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(p3);
@@ -60,7 +64,7 @@ function displayTable(item){
     let table_name = document.createElement('td');
     let table_place = document.createElement('td');
     let table_site = document.createElement('a');
-    let bus_name = document.createElement('td')
+    let bus_name = document.createElement('td');
    
 
     bus_name.textContent = item.name;
@@ -69,6 +73,7 @@ function displayTable(item){
     table_place.textContent = item.phone;
     table_site.textContent = item.website;
     table_site.href = item.website;
+    table_site.target = '_blank';
     table_rows.appendChild(bus_name);
     table_rows.appendChild(table_name);
     table_rows.appendChild(table_place);

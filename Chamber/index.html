@@ -72,14 +72,14 @@
         <div class="grid-item3">
             <div class="item3-info">
                 <div id="weather-box-child">
-                    <h2>Weather</h2>
+                    <h2>Current Weather</h2>
                     <div class="degree-image">
-                        <img src="../Chamber/images/cloud.photosop.png" alt="cloud image">
-                        <p class="degree"><span id="t">35</span>°</p>
+                        <!-- <img src="../Chamber/images/cloud.photosop.png" alt="cloud image"> -->
+                        <p class="degree"><span id="current-temp">35</span>&deg;F</p>
                  </div>
-                    <p>Partly Cloudy</p><hr>
+                 <p><span id="icon-src"></span></p><figure><img src="" alt="" id="weathericon" />  <figcaption></figcaption></figure><hr>
                     <p>Wind Speed: <span id="ws"> 5 </span> <br>
-                    <p>Wind Chill: <span id="wc"> n/a </span></p>
+                    <p>Wind Chill: <span id="wc"> N/A </span></p>
                 </div>
             </div>
         </div>
@@ -156,6 +156,7 @@
     </footer>
     <script src="../Chamber/js/js-chamber.js"></script>
     <script src="../Chamber/js/windchill.js"> </script> 
+    <script src="../lesson10/weather.js"> </script> 
 </body>
 
 </html>
