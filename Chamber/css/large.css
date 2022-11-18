@@ -86,4 +86,30 @@
     display:flex; 
 }
 
+.card_button{
+    display:block; 
+    width:15%;
+    margin-left: 500px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 45px;
+}
+.list_button{
+    display:block; 
+    width:15%;
+    margin-bottom: 15px;
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+}
+
 }
