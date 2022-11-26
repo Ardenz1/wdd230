@@ -354,6 +354,8 @@ figcaption{
 
 form{ 
     margin:40px; 
+    font-size: 20px;
+    font-family: 'Readex Proe', sans-serif;
    
 }
 
@@ -388,6 +390,8 @@ textarea {
 }
 .mem-div{
     text-align: center;
+    font-size: 20px; 
+    font-family: 'Arsenal', sans-serif;
 }
 .ty-container{
     background-color: #E7DECD;
