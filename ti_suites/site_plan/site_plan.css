@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+h1, h2, h3{
+    font-family: 'Arsenal', sans-serif;
+    margin:20px; 
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Readex Proe', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .header {
+    padding: 10px 16px;
+    background: white;
+    color: black;
+    box-shadow: 10px 10px 25px black;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .color1{ 
+    background-color:black;
+    color:white; 
+  }
+  .color2{
+    background-color: #939393;
+
+  }
+  .color3{
+    background-color: white; 
+    
+  }
+  .color4{
+    background-color: #20481A;
+    
+  }
+  .titleFont{
+    font-family: 'Rubik', sans-serif;
+  }
+  .paraFont{
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .persona-photo1{
+    max-width: 90% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px black solid; 
+  }
+  .persona-photo2{
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px black solid; 
+  }
+  img{ 
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .logo{
+    height: 200px; 
+    width: 200px; 
+  }
+  .small_view{
+    border: 5px black solid; 
+  }
+  .medium_view{
+    border: 5px black solid; 
+  }
+  .large_view{
+    border: 5px black solid; 
+  }
