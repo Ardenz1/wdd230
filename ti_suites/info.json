@@ -1,0 +1,70 @@
+{
+    "temples": [
+      {
+        "name": "Guayaquil Ecuador",
+        "address": "Calle Rosendo Maridueña 8845 Urdesa Norte",
+        "phone": "(593) 4-371-8100",
+        "email": "ecuadorguayaquilE@churchofjesuschrist.com",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated August 1, 1999",
+        "ordiance": "Ordiances Available: Baptism for the Dead, Initiatory, Sealings, Endowments ",
+        "session": "Proxy Ordinances Available starting at 6:30am through 8:30pm",
+        "closed": "Closed on Monday's and Sunday's"
+       },
+       {
+        "name": "Trujillo Peru ",
+        "address": "Av. Mansiche Km 3.5 Carretera hacia Huanchaco Huanchaco",
+        "phone": "(51) 44-602-130",
+        "email": "trujilloP@churchofjesuschrist.com",
+        "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated June 21, 2015",
+        "ordiance": "Ordiances Available: Baptism for the Dead, Initiatory, Sealings, Endowments ",
+        "session": "Proxy Ordinances Available starting at 6:30am through 8:30pm",
+        "closed": "Closed on Monday's and Sunday's"
+       },
+       {
+        "name": "Lima Peru",
+        "address": "Av. Javier Prado Este 6420  Urb. Santa PatriciaLa Molina, Lima 12, Peru",
+        "phone": "(51) 1-612-7200",
+        "email": "limaP@churchofjesuschrist.com",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated January 10, 1986",
+        "ordiance": "Ordiances Available: Baptism for the Dead, Initiatory, Sealings, Endowments ",
+        "session": "Proxy Ordinances Available starting at 6:30am through 8:30pm",
+        "closed": "Closed on Monday's and Sunday's"
+       },
+       {
+        "name": "Buenos Aires Argentina",
+        "address": "Aut. Tte. Gral. Riccheri N° 4955 B1778DUA Ciudad Evita",
+        "phone": "(54) 11-4693-9700",
+        "email": "buenosairesA@churchofjesuschrist.com",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated January 17, 1980, Rededicated September 9 2012",
+        "ordiance": "Ordiances Available: Baptism for the Dead, Initiatory, Sealings, Endowments ",
+        "session": "Proxy Ordinances Available starting at 6:30am through 8:30pm",
+        "closed": "Closed on Monday's and Sunday's"
+       },
+       {
+        "name": "Córdoba Argentinar",
+        "address": "Avenida Pedro Laplace 5637 CP5021",
+        "phone": "(54) 354-340-6200",
+        "email": "cordobaA@churchofjesuschrist.com",
+        "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated May 17, 2015",
+        "ordiance": "Ordiances Available: Baptism for the Dead, Initiatory, Sealings, Endowments ",
+        "session": "Proxy Ordinances Available starting at 6:30am through 8:30pm",
+        "closed": "Closed on Monday's and Sunday's"
+       },
+       {
+        "name": "Santiago Chile",
+        "address": "Pocuro #1940 Providencia 6641404 Santiago",
+        "phone": "(56) 22-340-5070",
+        "email": "santiagoC@churchofjesuschrist.com",
+        "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated September 15, 1983, Rededicated March 12, 2006",
+        "ordiance": "Ordiances Available: Baptism for the Dead, Initiatory, Sealings, Endowments ",
+        "session": "Proxy Ordinances Available starting at 6:30am through 8:30pm",
+        "closed": "Closed on Monday's and Sunday's"
+       }
+    ]
+  }
