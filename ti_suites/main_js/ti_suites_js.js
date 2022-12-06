@@ -58,3 +58,42 @@ document.querySelector('figcaption').textContent = desc;
 
   };
 getWeather();
+
+// Recieve Info from json FIle 
+//ASYNC AWAWIT fetch 
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+
+async function getTemples(requestURL){ 
+    const response = await fetch(requestURL);
+    console.log(response);
+    if(response.ok){
+        const jsObject = await response.json();
+        console.log(jsObject); 
+        const prophets = jsObject['prophets'];
+        console.log(temples[0].lastname); 
+        prophets.forEach(disaplayTemples);
+
+    }
+
+};
+
+getTemples(requestURL); 
+
+function disaplayTemples(item){
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let p1 = document.createElement('p'); 
+    let p2 = document.createElement('p'); 
+    
+    h2.textContent = item.name; 
+    p1.textContent = 'Address:' + item.address ;
+    p2.textContent = ' Place of Birth: ' + item.birthplace;
+    img.setAttribute('src', item.imageurl)
+    img.setAttribute('alt', item.name + ' ' + item.lastname);
+
+    card.appendChild(h2);
+    card.appendChild(p1); 
+    card.appendChild(p2); 
+    document.querySelector('.cards').appendChild(card); 
+
+}
