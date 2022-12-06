@@ -61,7 +61,7 @@ getWeather();
 
 // Recieve Info from json FIle 
 //ASYNC AWAWIT fetch 
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://ardenz1.github.io/wdd230/ti_suites/info.json';
 
 async function getTemples(requestURL){ 
     const response = await fetch(requestURL);
@@ -69,7 +69,7 @@ async function getTemples(requestURL){
     if(response.ok){
         const jsObject = await response.json();
         console.log(jsObject); 
-        const prophets = jsObject['prophets'];
+        const temples = jsObject['temples'];
         console.log(temples[0].lastname); 
         prophets.forEach(disaplayTemples);
 
@@ -87,9 +87,8 @@ function disaplayTemples(item){
     
     h2.textContent = item.name; 
     p1.textContent = 'Address:' + item.address ;
-    p2.textContent = ' Place of Birth: ' + item.birthplace;
-    img.setAttribute('src', item.imageurl)
-    img.setAttribute('alt', item.name + ' ' + item.lastname);
+    p2.textContent = ' Place of Birth: ' + item.email;
+    img.setAttribute('alt', item.name + ' ' + item.session);
 
     card.appendChild(h2);
     card.appendChild(p1); 
