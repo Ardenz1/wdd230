@@ -21,14 +21,14 @@
         <nav id="primaryNav">
             <ul class="navigation">
                 <li><a class="menu" href="#"></a></li>
-            <li><a href="../Chamber/index.html">Home</a></li>
-            <li><a href="../Chamber/discover.html">Temple</a></li>
-            <li><a href="../Chamber/join.html">Make Reservation</a></li>
-            <li><a href="../Chamber/directory.html">Services</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Temple</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Services</a></li>
         </nav>
         <img src="../ti_suites/images/logo3.jpg"  class="head_logo" alt="Temple Inn & Suites Logo">
 
-        <button type="button" class="book_now"> Book Now</button> 
+        <button type="button" class="book_now" id="btn2"> Book Now</button> 
     </div>
     
 </header>
@@ -36,35 +36,49 @@
 <main class="home_content"> 
     <div class="hero_image"> 
         <img src="../ti_suites/images/pillow_home_img.jpg" class="temp1_image" alt="image of hotel room "> 
-        <button type="button" class="book_now"> Book Now</button> 
+        <div class="hero_button_div" > 
+            <!-- <button type="button" class="book_now2" id="btn"> Book Now</button>  -->
+            <a  class="book_now2" id="btn" href="www.urmom.com">Book Now</a> 
     </div>
+        </div>
+        
 
     <div class="home_intro">
         <h2>Temple Inn & Suites</h2> 
-        <p> CONTENT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con.</p>
+        <p> We understand that traveling is hard, especially when you're coming from far away. We provide the means for you to rest and relax
+            to be able to enjoy fully your temple exsperience. We have a lot to offer to make your stay enjoyable and comfortable.
+        </p>
     </div>
+     <div class="image_info_container">
+        <div class="htemple_image"> 
+            <img src="../ti_suites/images/peru_temple.jpeg" class="home_image2" alt="image of temple"> 
+            <img src="../ti_suites/images/Info_image_finished.jpg" class="home_image_set" alt="image of temple"> 
+            <img src="../ti_suites/images/temple_inside.jpg" class="temple_inside" alt="Inside of Temple"> 
 
-    <div class="htemple_image"> 
-        <img src="../ti_suites/images/pillow_home_img.jpg" class="home_image2" alt="image of temple"> 
+                      
+        </div>
         <div class="book_info">
             <h2>Info about Booking </h2>
-            <p> CONTENT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con.</p>
+            <p> Address: Lima Perú Temple, Av. Javier Prado<br> Este 6420, La Molina 15024, Peru </p>
+            <p> Telephone: 522-607-9098</p>
+            <p> Services: Clothing rental available <br>
+                Cafeteria available<br>   
+                Distribution center nearby</p>
         </div>
+        
 
     </div>
 
     <div class="curr_weather"> 
         <div class="item3-info">
             <div id="weather-box-child">
-                <h2>Current Weather</h2>
+                <h3>Current Temperature</h3>
                 <div class="degree-image">
                 <p class="degree"><span id="current-temp">35</span>&deg;F</p>
              </div>
-             <p><span id="icon-src"></span></p><figure><img src="" alt="" id="weathericon" >  <figcaption></figcaption></figure><hr>
-                <p>Wind Speed: <span id="ws"> 5 </span> <br>
-                <p>Wind Chill: <span id="wc"> N/A </span></p>
+             <p>Current Conditions: <span id="icon-src"></span></p><figure><img src="" alt="" id="weathericon" >  <figcaption></figcaption></figure>
+                <p><span id="ws"></span> <br>
+                <p><span id="wc">  </span></p>
             </div>
         </div>
     </div>
@@ -72,12 +86,20 @@
     <div class="goole_maps"> 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49623.63474610376!2d-77.15359630582671!3d38.98160471663261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7cbb76a24022d%3A0x26b279f76a2bcd0d!2sBethesda%2C%20MD!5e0!3m2!1sen!2sus!4v1669845800178!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map_box"></iframe>
     </div>
+    <div class="medium_image"> 
+        <img src="../ti_suites/images/rsz_lobby_image.jpg"> 
+    </div>
 
     <div class="amenities">
         <div></div> 
         <h2>Amenities</h2>
-        <p> CONTENT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con.</p>
+        <p> Breakfast<br>  
+            Exercise/workout room<br>
+            Indoor pool<br>
+            WiFi high-speed internet access and smart TVs<br>
+            Parking<br>
+            Temple shuttle<br>
+            Family history consultation and family ordinance card service<br></p>
     </div>
         
     
@@ -91,17 +113,23 @@
 
     <div class="footer_content">
         <div class="foot_info">
-            <p>Location: </p>
-            <p>Contact: 345-234-1234 </p>
+            <p>Location: <a href="https://goo.gl/maps/pKLq8nUTajN2B57s9" style="color:white" target="blank">Bethesda Maryland</a> </p>
+         </div>
+        <div class="foot_info1">
+          
+            <p>Contact: 345-234-1234 </p> 
+        </div>
+        <div class="foot_info2">
+            
             <p>Follow Us: </p>
+            <div class="socials">
+                <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+            </div>
         </div>
-        <div class="socials">
-            <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
-        </div>
-
-    </div> 
+      
+        </div> 
 
 </footer>
 <script src="../ti_suites/main_js/ti_suites_js.js" ></script>

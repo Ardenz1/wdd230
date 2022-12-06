@@ -30,8 +30,7 @@ body {
   .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px; 
-    padding: 10px 16px;
+      padding: 10px 16px;
     background: white;
     color: black;
     box-shadow: 10px 10px 25px black;
@@ -53,6 +52,7 @@ body {
   /* HOME PAGE HEADER */
   .head_logo{
     height:8vh;
+    padding-right:100px; 
  }
   .top_head{
     background-color: #20481A;
@@ -66,7 +66,7 @@ body {
     display:flex;
     text-align: center;
     text-decoration: none;
-    padding-left: 145px; 
+    /* padding-left: 145px;  */
     justify-content: space-between;
     font-size: 12px; 
   }
@@ -90,7 +90,7 @@ body {
     color: white;
     width:70px; 
     height: 40px; 
-    border-radius: 5px;
+    border-radius: 5px; 
   }
   
 .navigation li:first-child {
@@ -101,7 +101,7 @@ body {
 }
 .navigation a {
 	display: block;
-  width:65px; 
+  /* width:65px;  */
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
@@ -130,7 +130,7 @@ body {
 	content: "x";
 }
 
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 700px) {
 	.navigation {
 		display: flex;
 	}
@@ -149,33 +149,97 @@ body {
 width:100%; 
 }
 .home_image2{
-  width:90%;
+  display:none; 
 }
 .map_box{
   width:90%;
   height:200px; 
+  
 }
 /* HOME PAGE */
 .home_content{  
   display: grid; 
   grid-template-columns: 1fr 1fr;
-  gap:10px; 
+  grid-gap:40px; 
   
 }
 .hero_image{
   grid-column: 1/3; 
+  position: relative; 
+  
  
+}
+.hero_button_div{
+  position: absolute;
+  bottom: -1em;
+     
+}
+.book_now2{
+  color:white;
+  background-color: black; 
+  width:100px; 
+  height: 40px; 
+  border-radius: 5px;
+  padding: 20px 30px;
+  font-size: 2rem
+}
+
+.book_now2:hover{
+  color: black; 
 }
 .home_intro{
   grid-column: 1/3;
 }
-.htemple_image{
+.image_info_container{
   grid-column: 1/3;
+
+}
+.htemple_image{
+   grid-column: 1/3;
+   width:100%
+  
+}
+.temple_inside{
+  display:none; 
+}
+
+.book_info{
+  display:none; 
+  top: 2px; 
+  left:290px;  
+  box-shadow:4px 4px 25px   black; 
+  background-color:white; 
+  border: 2px black solid;
+ 
+}
+.image_info_container{
+  padding-left: 65px;
+   
+}
+.curr_weather{ 
+text-align: center;
+font-size:1.5rem; 
+  
+}
+#icon-src{
+  display:none; 
+}
+
+.home_intro{
+  font-family: 'Noto Sans', sans-serif;
+  padding:20px;
+  font-size: 1.5rem;
+  
 }
 .amenities{
   grid-column: 1/3;
-  box-shadow:4px 4px 25px   black; 
-  background-color:white; 
+  font-family: 'Noto Sans', sans-serif;
+  padding:30px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.medium_image{
+  display:none; 
 }
 /* FOOTER CONTENT */
 footer{
@@ -187,10 +251,10 @@ footer{
   
 }
 .socials{
-  padding-left:50px;
+  padding-left:65px;
 }
-.foot_info{
-  font-size:15px
+.foot_info, .foot_info1, .foot_info2{
+  font-size:25px
   
 }
 .fa {
@@ -209,4 +273,7 @@ footer{
   padding-top:10px;
   height:13vh;
 }
+.medium_loc, .medium_cont, .medium_foll{
+  display:none
 
+}
