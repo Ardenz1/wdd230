@@ -197,6 +197,7 @@ width:100%;
 .htemple_image{
    grid-column: 1/3;
    width:100%
+ 
   
 }
 .temple_inside{
@@ -213,12 +214,16 @@ width:100%;
  
 }
 .image_info_container{
-  padding-left: 65px;
+ width:90%;
+ margin:auto; 
    
 }
 .curr_weather{ 
 text-align: center;
 font-size:1.5rem; 
+background-color: rgba(152, 51, 51, 0.1);
+color: black;
+  border: solid 1px; 
   
 }
 #icon-src{
@@ -237,43 +242,127 @@ font-size:1.5rem;
   padding:30px;
   font-size: 1.5rem;
   text-align: center;
+  
+}
+.amenities{
+  background-color: rgba(0,0,0,.1);
+  color: black;
+  border: solid 1px; 
 }
 .medium_image{
   display:none; 
 }
+/* Temples Page  */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.cards section {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  width: 400px;
+  margin: 20px;
+  box-shadow: 2px 5px 15px;
+}
+/* Reservation Page */
+form{ 
+  background-color: rgb(155, 150, 150);
+  margin:40px; 
+  padding-right: 200px; 
+  font-size: 20px;
+  font-family: 'Readex Proe', sans-serif;
+ 
+}
+
+form input:required { 
+  border-left: red solid 6px; 
+}
+
+form input:required:valid { 
+  border-left: green solid 6px; 
+}
+
+input{ 
+  margin-bottom:10px
+}
+
+label, input { 
+  display: block; 
+  font-size: 1em; 
+  /* margin: 30px;  */
+
+}
+
+textarea {
+  height: 150px;
+  width: 300px; 
+}
+#radio label, #radio input { 
+  display: inline; 
+}
+
+.mr-button{
+  background-color: black; 
+  color: white;
+  width:200px; 
+  height: 40px; 
+  border-radius: 5px; 
+
+}
+.res_images{ 
+  align-items: left;
+}
 /* FOOTER CONTENT */
 footer{
-  display:grid; 
+  display:grid;
   grid-template-columns: 1fr 1fr;
+    padding:10px;
+  justify-content: space-around;
   background-color: #20481A;
   color: white;
   padding:20px;
   
 }
-.socials{
-  padding-left:65px;
-}
 .foot_info, .foot_info1, .foot_info2{
-  font-size:25px
+  /* grid-column: 2/3; */
+  font-size:20px
   
+}
+.foot_info2{
+  grid-column: 2/3;
+}
+.foot_info1{
+  display:flex; 
 }
 .fa {
   padding: 15px;
   font-size: 20px;
   width: 15px;
   text-align: center;
-  /* text-decoration: none; */
-  margin: 5px 2px;
-  border-radius: 50%;
+  margin: auto;
+ }
+a:hover{
+text-decoration: underline;
 }
-.fa-instagram, .fa-facebook, .fa-twitter {
-  background: white;
-}
+
 .foot_img{ 
   padding-top:10px;
-  height:13vh;
+  height:12vh;
 }
-.medium_loc, .medium_cont, .medium_foll{
-  display:none
+.last_modified{
+  grid-column: 1/4;
+  background-color:black; 
+ 
+}
+.cards:nth-child(1){ 
+  font-weight: 700;
+}
+/* section:nth-child(3){
+  text-decoration: underline;
+} */
 
-}
+

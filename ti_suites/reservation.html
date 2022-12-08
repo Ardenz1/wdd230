@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn & Suites Home Page</title>
+
+    <link rel="stylesheet" href="../ti_suites/main_css/main.css"> 
+    <link rel="stylesheet" href="../ti_suites/main_css/medium.css"> 
+    <link rel="stylesheet" href="../ti_suites/main_css/large.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <header>
+    <div class="top_head"> 
+        <p class="head_p">Contact: 345-234-1234</p>
+    </div> 
+    <div class="header" id="myHeader">
+    
+        <nav id="primaryNav">
+            <ul class="navigation">
+                <li><a class="menu" href="#"></a></li>
+            <li><a href="../ti_suites/index.html">Home</a></li>
+            <li><a href="../ti_suites/temple.html">Temple</a></li>
+            <li><a href="../ti_suites/reservation.html">Reservation</a></li>
+            <li><a href="../ti_suites/services.html">Services</a></li>
+        </nav>
+        <img src="../ti_suites/images/logo3.jpg"  class="head_logo" alt="Temple Inn & Suites Logo">
+
+        <button type="button" class="book_now" id="btn2"> Book Now</button> 
+    </div>
+    
+</header>
+<div class="content"> 
+<div class="res_content">
+    <h2> Make A reservation</h2>
+    <div class="join-container"> 
+        <div class="res-images">
+             
+            <!-- <img src="../ti_suites/images/rsz_1rsz_1room.jpg">  -->
+        </div>
+        <form method="get" action="thankyou.html"> 
+            <label for="fname">First Name*: </label>
+            <input id="fname" type="text" name="firstname" required> 
+    
+            <label for="lname">Last Name*: </label>
+            <input id="lname" type="text" name="lastname" required> 
+
+            <label for="lname">Location*: </label>
+            <input id="lname" type="text" name="locationname" required> 
+    
+                
+            <label for="email">Email*: </label>
+            <input id="email" type="email" name="email"  placeholder="Tom@g.com" required> 
+    
+            <label for="phone">Telephone*: </label>
+            <input id="phone" type="tel" name="cell" required> 
+      
+            <label for="message"> Special Accomodations</label>
+            <textarea id="message" placeholder="Let Us Know of any Special Accomodations"></textarea>
+    
+            <input id="date" type="hidden" name="todaydate">
+            <input type="submit" value="Make Reservation" class="mr-button"> 
+        </form>
+  </div>
+</div>
+
+<footer> 
+    <!-- <div class="foot_img">
+        <img src="../ti_suites/site_plan/images/logo2.png"  class="foot_img" alt="Temple Inn & Suites Logo">
+    </div>  -->
+
+    <div class="footer_content">
+        <div class="foot_img">
+            <img src="../ti_suites/site_plan/images/logo2.png"  class="foot_img" alt="Temple Inn & Suites Logo">
+        </div> 
+        <div class="foot_info">
+            <p>Location: <a href="https://goo.gl/maps/pKLq8nUTajN2B57s9" style="color:white" target="blank">Bethesda Maryland</a> </p>
+         </div>
+        <div class="foot_info1">
+          
+            <p>Contact:<br> 345-234-1234 </p> 
+        </div>
+        <div class="foot_info2">
+            
+            <p>Follow Us: </p>
+            <div class="socials">
+                <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+            </div>
+        </div>
+      
+        </div> 
+
+</footer>
+<script src="../ti_suites/main_js/ti_suites_js.js" ></script>
+</body>
+</html>

@@ -48,6 +48,7 @@ const getWeather = async () => {
     console.log(jsObject);
     // °F = (K - 273.15)* 1.8000 + 32.00
     document.querySelector('#current-temp').textContent = ((jsObject.main.temp - 273.15) * 1.8 + 32).toFixed(2);
+    document.querySelector('#humidity').textContent = (jsObject.main.humidity).toFixed(0);
 
 const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 const desc = jsObject.weather[0].description;
@@ -59,40 +60,13 @@ document.querySelector('figcaption').textContent = desc;
   };
 getWeather();
 
-// Recieve Info from json FIle 
-//ASYNC AWAWIT fetch 
-const requestURL = 'https://ardenz1.github.io/wdd230/ti_suites/info.json';
+let date = new Date(); 
+let year = date.getFullYear(); 
 
-async function getTemples(requestURL){ 
-    const response = await fetch(requestURL);
-    console.log(response);
-    if(response.ok){
-        const jsObject = await response.json();
-        console.log(jsObject); 
-        const temples = jsObject['temples'];
-        console.log(temples[0].lastname); 
-        prophets.forEach(disaplayTemples);
+document.querySelector('.year').innerHTML = year;  
 
-    }
+//last upadted 
 
-};
+let currentdate = document.lastModified; 
+document.querySelector('.updated').innerHTML = currentdate;
 
-getTemples(requestURL); 
-
-function disaplayTemples(item){
-    let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let p1 = document.createElement('p'); 
-    let p2 = document.createElement('p'); 
-    
-    h2.textContent = item.name; 
-    p1.textContent = 'Address:' + item.address ;
-    p2.textContent = ' Place of Birth: ' + item.email;
-    img.setAttribute('alt', item.name + ' ' + item.session);
-
-    card.appendChild(h2);
-    card.appendChild(p1); 
-    card.appendChild(p2); 
-    document.querySelector('.cards').appendChild(card); 
-
-}
