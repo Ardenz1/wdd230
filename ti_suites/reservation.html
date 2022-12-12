@@ -12,31 +12,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
- <header>
-    <div class="top_head"> 
-        <p class="head_p">Contact: 345-234-1234</p>
-    </div> 
-    <div class="header" id="myHeader">
+    <header>
+        <div class="top_head"> 
+            <p class="head_p">Contact: 345-234-1234</p>
+        </div> 
+        <div class="header" id="myHeader">
+        
+            <nav id="primaryNav">
+                <ul class="navigation">
+                    <li><a class="menu" href="#"></a></li>
+                <li><a href="../ti_suites/index.html">Home</a></li>
+                <li><a href="../ti_suites/temple.html">Temple</a></li>
+                <li><a href="../ti_suites/reservation.html">Reservation</a></li>
+                <li><a href="../ti_suites/services.html">Services</a></li>
+            </nav>
+            <a href="../ti_suites/index.html"><img src="../ti_suites/images/logo3.jpg"  class="head_logo" alt="Temple Inn & Suites Logo"></a>
     
-        <nav id="primaryNav">
-            <ul class="navigation">
-                <li><a class="menu" href="#"></a></li>
-            <li><a href="../ti_suites/index.html">Home</a></li>
-            <li><a href="../ti_suites/temple.html">Temple</a></li>
-            <li><a href="../ti_suites/reservation.html">Reservation</a></li>
-            <li><a href="../ti_suites/services.html">Services</a></li>
-        </nav>
-        <img src="../ti_suites/images/logo3.jpg"  class="head_logo" alt="Temple Inn & Suites Logo">
-
-        <button type="button" class="book_now" id="btn2"> Book Now</button> 
-    </div>
-    
-</header>
+            <button type="button" class="book_now" id="btn2" href>Book Now</button> 
+        </div>
+        
+    </header>
 <div class="content"> 
 <div class="res_content">
-    <h2> Make A reservation</h2>
-    <div class="join-container"> 
-        <div class="res-images">
+    <h2> Make A Reservation</h2>
+    <h3> Enter your information below and when ready click "make reservation" <br> 
+        If you have any questions or concerns or would like to make a reservation over the phone,<br> please conact us! </h3>
+        <p> Email: templeinn@gmail.com<br> 
+            Phone: 345-234-1234</p>
+  
+        <div class="form_container">
              
             <!-- <img src="../ti_suites/images/rsz_1rsz_1room.jpg">  -->
         </div>
@@ -45,38 +49,57 @@
             <input id="fname" type="text" name="firstname" required> 
     
             <label for="lname">Last Name*: </label>
-            <input id="lname" type="text" name="lastname" required> 
+            <input id="lname" type="text" name="lastname" required>
+            
+            <label for="travelf">Traveling From: </label>
+            <input id="travelf" type="text" name="travelfrom">
 
-            <label for="lname">Location*: </label>
-            <input id="lname" type="text" name="locationname" required> 
+            <label for="lname">Location of Reservation*: </label>
+            <input id="lname" type="text" placeholder="Trujillo, Peru" name="locationname" required>
+            
+            <label for="end">Check in date:</label>
+            <input type="date" id="end" name="trip-end"
+               
+                min="2022-01" max="2030-12-31">
+            
+            <label for="start">Check out date:</label>
+            <input type="date" id="start" name="trip-start"
+                   
+                    min="2022-01" max="2030-12-31">
+
+            <label for="roomty">Choose Room Type:</label>
+            <select name="roomty" id="roomty">
+                    <option value="volvo">Single</option>
+                    <option value="saab">Double</option>
+                    <option value="opel">Deluxe Suite</option>
+             </select>
+             <label for="roomn">Number of Rooms </label>
+            <input id="roomn" type="number" name="roomnumber" min="1" max="10" required>
     
                 
             <label for="email">Email*: </label>
-            <input id="email" type="email" name="email"  placeholder="Tom@g.com" required> 
+            <input id="email" type="email" name="email"  placeholder="name@gmail.com" required> 
     
             <label for="phone">Telephone*: </label>
             <input id="phone" type="tel" name="cell" required> 
       
-            <label for="message"> Special Accomodations</label>
+            <label for="message"> Special Accomodations:</label>
             <textarea id="message" placeholder="Let Us Know of any Special Accomodations"></textarea>
     
             <input id="date" type="hidden" name="todaydate">
             <input type="submit" value="Make Reservation" class="mr-button"> 
         </form>
-  </div>
+    </div>
+  
 </div>
 
 <footer> 
-    <!-- <div class="foot_img">
-        <img src="../ti_suites/site_plan/images/logo2.png"  class="foot_img" alt="Temple Inn & Suites Logo">
-    </div>  -->
-
-    <div class="footer_content">
+    <!-- <div class="footer_content"> -->
         <div class="foot_img">
             <img src="../ti_suites/site_plan/images/logo2.png"  class="foot_img" alt="Temple Inn & Suites Logo">
         </div> 
         <div class="foot_info">
-            <p>Location: <a href="https://goo.gl/maps/pKLq8nUTajN2B57s9" style="color:white" target="blank">Bethesda Maryland</a> </p>
+            <p>Location:<br> <a href="https://goo.gl/maps/pKLq8nUTajN2B57s9" style="color:white" target="blank">Bethesda Maryland</a> </p>
          </div>
         <div class="foot_info1">
           
@@ -92,7 +115,11 @@
             </div>
         </div>
       
-        </div> 
+        <!-- </div>  -->
+    <div class="last_modified">
+        <p>&copy;<span class="year"></span> Temple Inn & Suites<br>
+        Last modification: <span class="updated"></span></p>
+    </div>
 
 </footer>
 <script src="../ti_suites/main_js/ti_suites_js.js" ></script>

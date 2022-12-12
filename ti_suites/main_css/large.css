@@ -4,7 +4,7 @@
     flex-flow: row;
     text-align: center;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
    
   }
   .head_logo{
@@ -84,7 +84,7 @@
       position:static; 
     }
     .curr_weather{
-      grid-column: 2/4;
+      grid-column: 1/4;
     }
     .goole_maps{
       grid-column: 1/2;
@@ -95,14 +95,33 @@
     .amenities{
       grid-column: 2/4;
     }
-    .join-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      padding-left: 50px; 
-    }
     form{
-      padding-right:;  
+      width:600px;  
+      margin-left: 310px; 
 
     }
+
+    .last_modified{
+      grid-column:1/5; 
+    }
+    .ty_container{
+      padding-bottom: 200px; 
+    }
+  .services_content{
+   font-size: 3vh;
+    margin:200px;
+  }
+    .pool, .restaurant, .wedding, .hotel_room{
+      border: solid black 3px; 
+      border-radius: 3px; 
+      margin-left:150px;
+      margin-top:10px; 
+      width: 65%
+    }
+    .conact_us{
+     margin-left:220px; 
+      width:400px;  
+    }
+    
   
   }

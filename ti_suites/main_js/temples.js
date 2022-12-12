@@ -28,16 +28,17 @@ function disaplayTemples(item){
     let p6 = document.createElement('p');
     let p7 = document.createElement('p');
     let p8 = document.createElement('p');
+
     
     h2.textContent = item.name; 
-    p1.textContent = 'Address:' + item.address; 
-    p2.textContent = 'Phone:' + item.phone; 
-    p3.textContent = 'Email:' + item.email;
-    p4.textContent = 'Services:' + item.services; 
-    p5.textContent = 'History:' + item.history; 
-    p6.textContent = 'Ordinances Offered:' + item.ordinance; 
-    p7.textContent = 'Session Schedule:' + item.session; 
-    p8.textContent = 'Closure Schedule:' + item.closed;  
+    p1.textContent = 'Address: ' + item.address; 
+    p2.textContent = 'Phone: ' + item.phone; 
+    p3.textContent = 'Email: ' + item.email;
+    p4.textContent = 'Services: ' + item.services; 
+    p5.textContent = 'History: ' + item.history; 
+    p6.textContent = 'Ordinances Offered: ' + item.ordiance; 
+    p7.textContent = 'Session Schedule: ' + item.session; 
+    p8.textContent = 'Closure Schedule: ' + item.closed;  
 
 
     card.appendChild(h2);
