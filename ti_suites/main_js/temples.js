@@ -28,7 +28,7 @@ function disaplayTemples(item){
     let p6 = document.createElement('p');
     let p7 = document.createElement('p');
     let p8 = document.createElement('p');
-    let test = document.createElement('div');
+    let test = document.createElement('p');
 
     
     test.textContent = "❤️"; 
