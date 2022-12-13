@@ -21,10 +21,10 @@
       a:link {
        text-decoration: none;
       }
-      a:visited {
+      /* a:visited {
         color: black;
       }
-      
+       */
       a:hover {
         color: #939393;
       }

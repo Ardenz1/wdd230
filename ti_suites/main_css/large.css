@@ -29,9 +29,9 @@
     a:link {
      text-decoration: none;
     }
-    a:visited {
+    /* a:visited {
       color: black;
-    }
+    } */
     
     a:hover {
       color: #939393;
@@ -110,6 +110,7 @@
   .services_content{
    font-size: 3vh;
     margin:200px;
+    margin-top:80px; 
   }
     .pool, .restaurant, .wedding, .hotel_room{
       border: solid black 3px; 

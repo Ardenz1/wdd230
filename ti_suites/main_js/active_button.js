@@ -1,10 +1,11 @@
 document.getElementById("btn").addEventListener("mouseover", function() {
     document.getElementById("btn").style.backgroundColor = "green";
+    document.getElementById("btn").style.color = "white";
   });
     
   document.getElementById("btn").addEventListener("mouseout", function() {
     document.getElementById("btn").style.backgroundColor = "black";
-  
+    document.getElementById("btn").style.color = "white";
   });
 
 const temp = document.querySelector('#current-temp').textContent;

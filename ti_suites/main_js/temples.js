@@ -28,8 +28,10 @@ function disaplayTemples(item){
     let p6 = document.createElement('p');
     let p7 = document.createElement('p');
     let p8 = document.createElement('p');
+    let test = document.createElement('div');
 
     
+    test.textContent = "❤️"; 
     h2.textContent = item.name; 
     p1.textContent = 'Address: ' + item.address; 
     p2.textContent = 'Phone: ' + item.phone; 
@@ -41,6 +43,7 @@ function disaplayTemples(item){
     p8.textContent = 'Closure Schedule: ' + item.closed;  
 
 
+    card.appendChild(test);
     card.appendChild(h2);
     card.appendChild(p1);
     card.appendChild(p2);
